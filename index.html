@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <h1 class="brand">Arwa's Portfolio</h1>
+            <div class="nav-links">
+                <button class="nav-btn is-active" data-target="about">about</button>
+                <button class="nav-btn" data-target="education">education</button>
+                <button class="nav-btn" data-target="skills">skills</button>
+                <button class="nav-btn" data-target="projects">projects</button>
+                <button class="nav-btn" data-target="contact">contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-hero">
+        <div class="container">
+            <div class="hero">
+                <div class="avatar-wrap">
+                    <div class="avatar-glow"></div>
+                    <img class="avatar" src="assets/a.jpeg" alt="Profile" />
+                </div>
+
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        Hi, I'm
+                        <span class="gradient-text">Arwa Alomari</span>
+                    </h2>
+                    <p class="hero-subtitle">Computer Science Student — Artificial Intelligence Track</p>
+
+                    <p class="hero-desc">
+                        Computer Science student specializing in Artificial Intelligence with hands on experience in
+                        machine learning, deep learning, and software development. Skilled in building intelligent
+                        systems, interactive web applications, and AI driven solutions that address real world problems.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">Get in Touch</a>
+                        <a class="btn btn-outline" href="#projects">View Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-white">
+  <div class="container">
+    <h2 class="section-title">
+      Education & <span class="gradient-text">Certifications</span>
+    </h2>
+
+    <!-- EDUCATION -->
+    <div class="block">
+      <h3 class="block-title">
+        <i class="fa-solid fa-globe"></i> Education
+      </h3>
+
+      <div class="card card-hover">
+        <div class="card-top">
+          <h4>B.S. in Computer Science</h4>
+          <span class="chip">2021 - present</span>
+        </div>
+        <p class="card-desc">Artificial Intelligence Track</p>
+        <p class="muted">Effat University — Jeddah, Saudi Arabia</p>
+      </div>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <div class="block">
+      <h3 class="block-title">
+        <i class="fa-solid fa-code"></i> Certifications
+      </h3>
+
+      <div class="grid-2">
+
+        <div class="card card-hover cert-card">
+          <h4>Machine Learning and AI Services on AWS</h4>
+          <p class="muted">Politecnico di Milano</p>
+          <p class="chip small">Apr 2023</p>
+          <a class="cert-link"
+             href="https://drive.google.com/file/d/14gwZ0Oi3vo0o1xctasWe7pVxdgyoNm2L/view?usp=drive_link"
+             target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+          <h4>Introduction to Artificial Intelligence</h4>
+          <p class="muted">University of Oxford</p>
+          <p class="chip small">Sep 2024</p>
+          <a class="cert-link"
+             href="https://drive.google.com/file/d/1jvjZ6LpgMQlEwjy884hWbYNI6ZZdVbLK/view?usp=drive_link"
+             target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+          <h4>Generative AI: Introduction and Applications</h4>
+          <p class="muted">IBM</p>
+          <p class="chip small">Sep 2024</p>
+          <a class="cert-link" href="https://drive.google.com/file/d/1V7BTINg7Z_w5i9LcuY3yWnBbjiItzYNR/view?usp=drive_link" target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+          <h4>Introduction to Software Engineering</h4>
+          <p class="muted">IBM</p>
+          <p class="chip small">Sep 2024</p>
+          <a class="cert-link" href="https://drive.google.com/file/d/1FdTJdpBoviU82KKGX49YtuJQaEA_E8RW/view?usp=drive_link" target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+          <h4>Neural Networks and Deep Learning</h4>
+          <p class="muted">deeplearning.ai</p>
+          <p class="chip small">Oct 2025</p>
+          <a class="cert-link" href="https://drive.google.com/file/d/17ECbSCUj9YZfj7cw-lhLJCw_xfBFxxsw/view?usp=drive_link" target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+          <h4>Analysis and Visualization of Data with Power BI</h4>
+          <p class="muted">Microsoft</p>
+          <p class="chip small">Oct 2025</p>
+          <a class="cert-link" href="https://drive.google.com/file/d/1o-FCfO0v2mPZxulEkVhHMdYhpM-hJDHx/view?usp=drive_link" target="_blank" rel="noopener">
+            🔗 View Certificate
+          </a>
+        </div>
+
+        <div class="card card-hover cert-card">
+  <h4>Bootstrap</h4>
+  <p class="muted">Tuwaiq Academy — منصة سطر</p>
+  <p class="chip small">May 19, 2025</p>
+  <a class="cert-link"
+     href="https://drive.google.com/file/d/1pW18IhezwE5tRu2WeK05Ptt06lPoVOtL/view?usp=drive_link"
+     target="_blank" rel="noopener">
+    🔗 View Certificate
+  </a>
+</div>
+
+<div class="card card-hover cert-card">
+  <h4>JavaScript 102</h4>
+  <p class="muted">Tuwaiq Academy — منصة سطر</p>
+  <p class="chip small">May 19, 2025</p>
+  <a class="cert-link"
+     href="https://drive.google.com/file/d/13e2vfWJk4S4RJxq59w-2RBJKDp8-Ia8W/view?usp=drive_link"
+     target="_blank" rel="noopener">
+    🔗 View Certificate
+  </a>
+</div>
+
+<div class="card card-hover cert-card">
+  <h4>JavaScript 103</h4>
+  <p class="muted">Tuwaiq Academy — منصة سطر</p>
+  <p class="chip small">Aug 21, 2025</p>
+  <a class="cert-link"
+     href="https://drive.google.com/file/d/1prkb10zE7BItcEMVwajv1Cj8Aycw7b7i/view?usp=drive_link"
+     target="_blank" rel="noopener">
+    🔗 View Certificate
+  </a>
+</div>
+
+
+         
+
+      </div>
+    </div>
+
+    <!-- RELATED AI TRACK COURSES (FIXED: now inside container + block) -->
+    <div class="block ai-courses">
+  <h3 class="block-title">
+    <i class="fa-solid fa-brain"></i> AI Track Coursework
+  </h3>
+
+  <div class="grid-2">
+    <div class="card card-hover ai-course">
+      <h4>🤖 Machine Learning</h4>
+      <p class="muted">
+        Supervised and unsupervised models, evaluation metrics, optimization techniques.
+      </p>
+    </div>
+
+    <div class="card card-hover ai-course">
+      <h4>💬 Natural Language Processing (NLP)</h4>
+      <p class="muted">
+        Text preprocessing, embeddings, transformers, and NLP applications.
+      </p>
+    </div>
+
+    <div class="card card-hover ai-course">
+      <h4>🧠 Advanced Topics in Artificial Intelligence</h4>
+      <p class="muted">
+        Deep learning , Generative Ai, and modern AI techniques.
+      </p>
+    </div>
+
+    <div class="card card-hover ai-course">
+      <h4>📡 Internet of Things (IoT)</h4>
+      <p class="muted">
+        Sensor based systems, data acquisition, and smart connected applications.
+      </p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-soft">
+        <div class="container">
+            <h2 class="section-title">
+                Skills & <span class="gradient-text">Expertise</span>
+            </h2>
+
+            <div class="grid-2" id="skillsGrid">
+                <!-- filled by JS -->
+            </div>
+
+            <div class="tech">
+                <h3 class="tech-title">Tech Stack</h3>
+                <div class="tech-icons">
+                    <div class="tech-icon" title="Python">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+
+                    <div class="tech-icon" title="Java">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                    <div class="tech-icon" title="HTML">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="tech-icon" title="CSS">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                    <div class="tech-icon" title="JavaScript">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-white">
+        <div class="container">
+            <h2 class="section-title">
+                Featured <span class="gradient-text">Projects</span>
+            </h2>
+
+            <div class="grid-2" id="projectsGrid">
+                <!-- filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section section-soft">
+  <div class="container">
+    <h2 class="section-title">
+      Achievements & <span class="gradient-text">Leadership</span>
+    </h2>
+
+
+    <!-- cards -->
+   <div class="card card-hover achievement-card" data-badge="Leadership">
+  <div class="ach-top">
+    <div class="ach-icon">👑</div>
+    <span class="ach-badge">Leadership</span>
+  </div>
+
+  <h3>Leader of the IEEE CS Chapter</h3>
+  <p class="muted">
+    <div class="ach-image">
+    <img src="assets/leader.JPG" alt="IEEE CS Chapter Leadership">
+  </div>
+    Leading IEEE Computer Society Chapter activities and fostering technical growth in the community.
+  </p>
+</div>
+
+ <div class="card card-hover achievement-card" data-badge="Leadership">
+  <div class="ach-top">
+    <div class="ach-icon">🥈</div>
+    <span class="ach-badge">Research</span>
+  </div>
+
+  <h3>2nd Place — Undergraduate Research Forumr</h3>
+  <p class="muted">
+    <div class="ach-image">
+    <img src="assets/ugrf.png" alt="IEEE CS Chapter Leadership">
+  </div>
+    Won 2nd place at Effat’s 5th Undergraduate Research Forum (Apr 2024).
+  </p>
+</div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-soft">
+        <div class="container">
+            <h2 class="section-title">
+                Get in <span class="gradient-text">Touch</span>
+            </h2>
+
+            <div class="grid-2 contact-grid">
+                <!-- Form -->
+                <div class="card form-card">
+                    <div class="form">
+                        <div class="field">
+                            <label>Name</label>
+                            <input id="name" type="text" placeholder="Your name" />
+                        </div>
+
+                        <div class="field">
+                            <label>Email</label>
+                            <input id="email" type="email" placeholder="you@email.com" />
+                        </div>
+
+                        <div class="field">
+                            <label>Message</label>
+                            <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
+                        </div>
+
+                        <button id="sendBtn" class="btn btn-primary btn-full">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Social -->
+                <div class="social">
+                    <div class="card social-card card-hover">
+                        <div class="social-row">
+                            <div class="social-icon blue"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p class="muted">arwarue@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="card social-card card-hover" href="https://www.linkedin.com/in/arwa-alomari-62a622321/" target="_blank" rel="noopener">
+                        <div class="social-row">
+                            <div class="social-icon blue"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p class="muted"></p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="card social-card card-hover" href="https://github.com/arwalulu" target="_blank" rel="noopener">
+                        <div class="social-row">
+                            <div class="social-icon dark"><i class="fa-brands fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p class="muted"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Arwa Alomari. All rights reserved.</p>
+            <p class="muted small">Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
